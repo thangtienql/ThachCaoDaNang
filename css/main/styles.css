@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background: #1f1f1f !important;
+}
+.navbar li a{
+    color: #fff !important;
+}
+.navbar li a:hover{
+    color: #e99a00 !important;
+    transition: 0.5s;
+}
+
+/* slide */
+
+/* .carousel-inner{
+} */
+
+.carousel-inner .carousel-item img{
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+.carousel-caption{
+    top: 20%;
+}
+.carousel-caption h5{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.introduce-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.introduce-content span{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.introduce-content p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #181a1b;
+}
+
+.feature-box__item h3{
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -1px;
+    color: #1f1f1f;
+    font-style: normal;
+    font-weight: 700;
+}
+.feature-box__item p{
+    font-size: 17px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+/* tabs */
+.project-thachcao{
+    margin-top: 7rem;
+}
+.title-project{
+    font-size: 32px;
+    line-height: 38px;
+    color: #1f1f1f;
+    font-weight: 700;
+}
+
+.dot-theme .dot{
+    transform: translate(-50%, -50%) scaleX(1.4);
+    -webkit-transform: translate(-50%, -50%) scaleX(1.4);
+    text-align: center;
+}
+.dot-theme .dot span{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    background: #e99a00;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.item-tab{
+    overflow: hidden;
+}
+.item-tab img{
+    background-size: contain;
+    width: 100%;
+}
+
+.item-img-tabs {
+    margin: 0;
+    padding: 5px;
+}
+
+.nav-tabs li a:hover{
+    color: #e99a00 !important;
+    transition: .7s;
+}
+.nav-link.active{
+    color: #e99a00 !important;
+}
+/* end-tabs */
+
+/* hotro */
+.support-wrap{
+    padding: 45px 0px;
+    background-image: url(http://thachcaohoangphucqb.com/wp-content/uploads/2017/02/image-36.jpg);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: relative;
+    height: 220px;
+}
+.content-support span{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.content-support .btn-contact{
+    width: 338px;
+    line-height: 28px;
+    padding: 10px 10px;
+}
+
+/* new wrapper */
+.title-new h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #1f1f1f;
+}
+.feature-img img{
+    background-size: contain;
+    overflow: hidden;
+    width: 100%;
+}
+.term-title-wrap{
+    text-decoration: underline;
+}
+
+.btn-read-more{
+    margin: 0;
+    padding: 0;
+    background-color: #e99a00;
+    padding: 10px 15px;
+}
+
+/* lien-he */
+.lienhe{
+    margin-top: 8rem;
+}
+
+/* footer */
+.site-footer-widget{
+    background-image: url(http://thachcaohoangphucqb.com/wp-content/uploads/2017/02/image-68.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.site-footer-widget h3{
+    color: #c4c4c4;
+}
+.ft-content-item-one{
+    font-size: 16px;
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 30px;
+}
+.ft-side-posts-list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: left;
+    margin-bottom: 20px;
+}
+.ft-side-posts-list li{
+    margin-top: 30px;
+}
+.fw-side-posts-image {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.fw-side-posts-image img{
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+.post-content{
+    display: inline;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #e99a00;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-sidebar-item-three ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+    color: #c4c4c4;
+    font-size: 18px;
+}
+.footer-sidebar-item-four ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.twitter-img{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 30px;
+}
+
+.site-footer-bar{
+    background-color: #111;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-sidebar-item-three ul li{
+    color: #e99a00;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.ft-copyright{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Lato';
+    line-height: 45px;
+    color: #fff;
+}
+
+
+  
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+}
+}
